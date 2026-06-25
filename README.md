@@ -11,7 +11,7 @@
 
 ## 📖 Description
 
-This project implements an **SRE Remediation Agent** — a production-ready pipeline that ingests system metrics, detects anomalies using configurable rule-based detection, and generates actionable remediation recommendations via LLMs. It demonstrates how to build reliable, maintainable AI-powered operations tools using the **LangGraph StateGraph** paradigm with strict type safety at every stage.
+This project implements an **SRE Remediation Agent** — a pipeline that ingests system metrics, detects anomalies using configurable rule-based detection, and generates actionable remediation recommendations via LLMs. It demonstrates how to build reliable, maintainable AI-powered operations tools using the **LangGraph StateGraph** paradigm with strict type safety at every stage.
 
 Key capabilities include:
 
