@@ -1,0 +1,15 @@
+Below is a list of aggregated incidents in JSON format.
+
+{incidents}.
+
+Mission: Produce an urgent diagnosis that doesn't just list solutions, but explains the dynamics of the incident.
+
+Structure of your response:
+
+The "Timeline" of the incident: Based on timestamps and metrics, tell the chronological narrative.
+
+Analysis of peaks: Identify critical values and explain their real impact on the end user.
+
+Immediate survival actions: What needs to be done within 5 minutes to stabilize the system?
+
+Long-term resilience strategy: Structural recommendations (scaling, optimization, redundancy).

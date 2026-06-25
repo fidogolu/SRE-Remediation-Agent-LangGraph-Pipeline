@@ -1,0 +1,98 @@
+rules:
+  - name: availability
+    type: offline_services
+    metric: availability
+    severity: critical
+    category: availability
+    affected: []
+    message: "Services offline: {value}"
+    priority: 1
+
+  - name: error_rate
+    type: threshold
+    condition: metric_h
+    threshold: 0.10
+    metric: error_rate
+    value_multiplier: 100
+    severity: critical
+    category: performance
+    affected: [service_alpha]
+    message: "High error rate ({value}%)"
+    priority: 2
+
+  - name: disk_critical
+    type: threshold
+    condition: metric_d
+    threshold: 90
+    metric: disk
+    severity: critical
+    category: resource
+    affected: [storage]
+    message: "Critical disk space ({value}%)"
+    priority: 3
+
+  - name: io_wait
+    type: threshold
+    condition: metric_g
+    threshold: 15
+    metric: io_wait
+    severity: critical
+    category: resource
+    affected: [storage]
+    message: "Disk I/O congestion ({value}%)"
+    priority: 4
+
+  - name: memory_critical
+    type: threshold
+    condition: metric_b
+    threshold: 95
+    metric: memory
+    severity: critical
+    category: resource
+    affected: [system]
+    message: "Memory saturated ({value}%) - Risk of OOM"
+    priority: 5
+
+  - name: cpu_critical
+    type: threshold
+    condition: metric_a
+    threshold: 90
+    metric: cpu
+    severity: critical
+    category: resource
+    affected: [system]
+    message: "CPU saturation ({value}%)"
+    priority: 6
+
+  - name: memory_warning
+    type: threshold
+    condition: metric_b
+    threshold: 85
+    metric: memory
+    severity: warning
+    category: resource
+    affected: [system]
+    message: "High memory usage ({value}%)"
+    priority: 7
+
+  - name: latency_warning
+    type: threshold
+    condition: metric_c
+    threshold: 400
+    metric: latency
+    severity: warning
+    category: performance
+    affected: [api_gateway]
+    message: "High latency ({value}ms)"
+    priority: 8
+
+  - name: temperature_info
+    type: threshold
+    condition: metric_i
+    threshold: 80
+    metric: temperature
+    severity: info
+    category: resource
+    affected: [system]
+    message: "Elevated temperature ({value}°C)"
+    priority: 9

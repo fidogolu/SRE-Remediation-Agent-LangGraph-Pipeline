@@ -1,0 +1,107 @@
+[
+    {
+        "timestamp": "2024-01-01T00:00:00Z",
+        "metric_a": 45.2,
+        "metric_b": 62.8,
+        "metric_c": 120.5,
+        "metric_d": 78.3,
+        "metric_e": 1542,
+        "metric_f": 1230,
+        "metric_g": 8.5,
+        "thread_count": 120,
+        "active_connections": 95,
+        "metric_h": 0.02,
+        "uptime_seconds": 86400,
+        "metric_i": 65,
+        "metric_j": 280,
+        "service_status": {
+            "service_alpha": "online",
+            "service_beta": "online",
+            "service_gamma": "online"
+        }
+    },
+    {
+        "timestamp": "2024-01-01T00:30:00Z",
+        "metric_a": 92.5,
+        "metric_b": 88.3,
+        "metric_c": 450.2,
+        "metric_d": 91.7,
+        "metric_e": 3200,
+        "metric_f": 2890,
+        "metric_g": 22.1,
+        "thread_count": 250,
+        "active_connections": 180,
+        "metric_h": 0.15,
+        "uptime_seconds": 86600,
+        "metric_i": 82,
+        "metric_j": 390,
+        "service_status": {
+            "service_alpha": "online",
+            "service_beta": "degraded",
+            "service_gamma": "online"
+        }
+    },
+    {
+        "timestamp": "2024-01-01T01:00:00Z",
+        "metric_a": 95.8,
+        "metric_b": 94.1,
+        "metric_c": 520.7,
+        "metric_d": 93.2,
+        "metric_e": 3800,
+        "metric_f": 3450,
+        "metric_g": 28.5,
+        "thread_count": 310,
+        "active_connections": 220,
+        "metric_h": 0.18,
+        "uptime_seconds": 86800,
+        "metric_i": 88,
+        "metric_j": 450,
+        "service_status": {
+            "service_alpha": "offline",
+            "service_beta": "offline",
+            "service_gamma": "online"
+        }
+    },
+    {
+        "timestamp": "2024-01-01T01:30:00Z",
+        "metric_a": 55.3,
+        "metric_b": 68.2,
+        "metric_c": 180.4,
+        "metric_d": 65.8,
+        "metric_e": 1800,
+        "metric_f": 1450,
+        "metric_g": 10.2,
+        "thread_count": 150,
+        "active_connections": 110,
+        "metric_h": 0.03,
+        "uptime_seconds": 87000,
+        "metric_i": 70,
+        "metric_j": 300,
+        "service_status": {
+            "service_alpha": "online",
+            "service_beta": "online",
+            "service_gamma": "online"
+        }
+    },
+    {
+        "timestamp": "2024-01-01T02:00:00Z",
+        "metric_a": 38.7,
+        "metric_b": 55.4,
+        "metric_c": 95.2,
+        "metric_d": 58.9,
+        "metric_e": 1200,
+        "metric_f": 980,
+        "metric_g": 6.8,
+        "thread_count": 95,
+        "active_connections": 70,
+        "metric_h": 0.01,
+        "uptime_seconds": 87200,
+        "metric_i": 52,
+        "metric_j": 220,
+        "service_status": {
+            "service_alpha": "online",
+            "service_beta": "online",
+            "service_gamma": "online"
+        }
+    }
+]
